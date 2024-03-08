@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 43.4rem;
+    height: 16.54rem;
+}
+
+
+:root{
+    font-size:65%
+}
+
+
+#app{
+    display: grid;
+    grid-template-rows: max-content 1fr 1fr max-content;
+    height: 100vh;
+    width: 100%;
+}
+
+#app header{
+    padding: 1.6rem 2.8rem;
+    background: #387E96;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    
+    margin-inline: 43rem;
+    width: 43.4rem;
+}
+
+
+.avatar{
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+ 
+}
+
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+.input-wrapper input{
+   
+    padding: 1.2rem 1.6rem;
+    border: 0;
+    width: 100%;
+    height: 4.0rem;
+    gap: 2.5rem;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.228);
+    
+}
+.input-wrapper input::-webkit-input-placeholder {
+    font-family: 'Mulish';
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+
+
+}
+main{
+    max-width: 43rem;
+    margin-inline: auto;
+}
+
+.figure{
+    width: 43.4rem;
+    align-items: center;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+  h1{
+    color: #202024;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 2.1rem 3.6rem 1.0rem 2.6rem;
+  
+}
+.like{
+    padding: .1rem 3.6rem 1.0rem 2.6rem;
+   display: flex;
+   gap: .8rem;  
+
+}
+
+main p{
+
+    
+    color:  #121214;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .1rem 3.6rem 1.0rem 2.6rem;
+    
+
+}
+.container{
+    margin-inline: 43rem;
+   padding: 1rem 3.6rem 1.0rem 2.6rem;
+    
+}
+
+h2{
+    color: #202024;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+   
+    margin: auto;
+   
+}
+
+.card {
+    display: flex;
+    margin-block: 3rem;
+    gap: 1.6rem;
+    width: 100%;
+    
+ 
+}
+.card img{
+    display: block;
+    
+    width: 15rem;
+    height: 8rem;
+    
+
+}
+
+h3{
+    color: #202024;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    
+
+}
+
+.card p{
+   
+    color:  #121214;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+
+}
+#app footer{
+    width: 43.4rem;
+    align-items: center;
+    margin-inline: 43rem;
+    
+    padding: 1.6rem;
+    background: #387E96;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    font-family: Mulish;
+    font-weight: 600; 
+}
+
